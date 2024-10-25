@@ -19,9 +19,7 @@ class DMX512ESP32 : public DMX512 {
         this->uart_idx_ = U0TXD_OUT_IDX;
     } else if(num == 1) {
         this->uart_idx_ = U1TXD_OUT_IDX;
-    } else if(num == 2) {
-        this->uart_idx_ = U2TXD_OUT_IDX;
-    }
+    } 
   }
 };
 
